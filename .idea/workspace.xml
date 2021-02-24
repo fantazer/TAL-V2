@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix calc adds basket">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/basket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/variable/config/_color.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/variable/config/_color.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/deliver.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/deliver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/elements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/error-404.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/error-404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/error-500.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/error-500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/css/sprite.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/css/sprite.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/about.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/about.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/basket.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/basket.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/catalog.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/catalog.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/deliver.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/deliver.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/error-404.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/error-404.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/error-500.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/error-500.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/form.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/form.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/item.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/item.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/lk.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/lk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/main.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/main.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/modal.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/modal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/offer.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/offer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/review-list.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/review-list.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/sale-item.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/sale-item.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/sale-list.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/sale-list.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/success.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/success.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/screen/app/vacancy.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/vacancy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/sprite.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/sprite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lk.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/lk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/modal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/module/header/_header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/module/header/_header.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/offer.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/offer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/review-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/review-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sale-item.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/sale-item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sale-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/sale-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/vacancy.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/vacancy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/basket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/deliver.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/deliver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/elements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/error-404.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/error-404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/error-500.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/error-500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/css/sprite.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/css/sprite.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/screen/app/about.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/screen/app/about.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/screen/app/basket.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/screen/app/basket.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/screen/app/catalog.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/screen/app/catalog.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/screen/app/deliver.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/screen/app/deliver.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/screen/app/error-404.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/screen/app/error-404.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/screen/app/error-500.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/screen/app/error-500.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/screen/app/form.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/screen/app/form.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/screen/app/item.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/screen/app/item.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/screen/app/lk.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/screen/app/lk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/screen/app/main.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/screen/app/main.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/screen/app/modal.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/screen/app/modal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/screen/app/offer.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/screen/app/offer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/screen/app/review-list.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/screen/app/review-list.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/screen/app/sale-item.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/screen/app/sale-item.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/screen/app/sale-list.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/screen/app/sale-list.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/screen/app/success.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/screen/app/success.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/screen/app/vacancy.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/screen/app/vacancy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sprite.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/sprite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/combined.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/combined.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/lk.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/lk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/modal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/offer.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/offer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/review-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/review-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sale-item.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/sale-item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sale-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/sale-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vacancy.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vacancy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/js/script.js" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1OgzLs5tRzA7rKn4Yudy7oRwBFY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="clone&#9;ACTION&#9;Git.Clone" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Web\TAL-V2" />
+      <recent name="G:\Web\TAL-V2\app" />
+      <recent name="E:\PROJECT\WORK\TAL\app\img" />
+      <recent name="E:\PROJECT\WORK\TAL" />
+      <recent name="E:\PROJECT\WORK\TAL\app\img\svg" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="" />
+      <created>1514903802829</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1514903802829</updated>
+      <workItem from="1514903803938" duration="2224000" />
+      <workItem from="1515488328980" duration="1942000" />
+      <workItem from="1515567392768" duration="575000" />
+      <workItem from="1515935008547" duration="159000" />
+      <workItem from="1518007368713" duration="1814000" />
+      <workItem from="1520847023938" duration="286000" />
+      <workItem from="1521391025058" duration="612000" />
+      <workItem from="1521444464204" duration="16000" />
+      <workItem from="1522405908119" duration="714000" />
+      <workItem from="1522418744115" duration="598000" />
+      <workItem from="1538403004833" duration="4451000" />
+      <workItem from="1538420767514" duration="258000" />
+      <workItem from="1538470435004" duration="948000" />
+      <workItem from="1538553274508" duration="4337000" />
+      <workItem from="1539196250315" duration="202000" />
+      <workItem from="1539342006833" duration="2053000" />
+      <workItem from="1540312525087" duration="280000" />
+      <workItem from="1540991148576" duration="54000" />
+      <workItem from="1542121148614" duration="618000" />
+      <workItem from="1542363908192" duration="716000" />
+      <workItem from="1543309265518" duration="187000" />
+      <workItem from="1543312723675" duration="1231000" />
+      <workItem from="1543827319641" duration="911000" />
+      <workItem from="1545381598426" duration="9399000" />
+      <workItem from="1545585507410" duration="278000" />
+      <workItem from="1545587871227" duration="333000" />
+      <workItem from="1547112308110" duration="25000" />
+      <workItem from="1547643953381" duration="639000" />
+      <workItem from="1549451913590" duration="120000" />
+      <workItem from="1549457260745" duration="700000" />
+      <workItem from="1549526885417" duration="598000" />
+      <workItem from="1557691085866" duration="1610000" />
+      <workItem from="1557693725938" duration="24000" />
+      <workItem from="1559217077254" duration="165000" />
+      <workItem from="1559220344052" duration="819000" />
+      <workItem from="1559896257569" duration="1252000" />
+      <workItem from="1560778493031" duration="2277000" />
+      <workItem from="1561392812642" duration="287000" />
+      <workItem from="1561394516947" duration="116000" />
+      <workItem from="1561472092614" duration="608000" />
+      <workItem from="1561564221091" duration="709000" />
+      <workItem from="1562765819493" duration="746000" />
+      <workItem from="1563526471393" duration="720000" />
+      <workItem from="1564413977898" duration="124000" />
+      <workItem from="1564501872048" duration="119000" />
+      <workItem from="1564509546670" duration="4000" />
+      <workItem from="1564580660394" duration="646000" />
+      <workItem from="1566731813438" duration="357000" />
+      <workItem from="1572709522288" duration="653000" />
+      <workItem from="1572853685272" duration="3424000" />
+      <workItem from="1573053151336" duration="66000" />
+      <workItem from="1573075103075" duration="602000" />
+      <workItem from="1573332965326" duration="673000" />
+      <workItem from="1573589857939" duration="11000" />
+      <workItem from="1573643138710" duration="19000" />
+      <workItem from="1574600755981" duration="113000" />
+      <workItem from="1574720197948" duration="222000" />
+      <workItem from="1574773475287" duration="2234000" />
+      <workItem from="1574927903210" duration="11000" />
+      <workItem from="1575358136937" duration="806000" />
+      <workItem from="1575915493208" duration="50000" />
+      <workItem from="1576487600572" duration="822000" />
+      <workItem from="1577618275430" duration="677000" />
+      <workItem from="1581417917810" duration="2618000" />
+      <workItem from="1589364070651" duration="4470000" />
+      <workItem from="1589629264977" duration="2318000" />
+      <workItem from="1589894377476" duration="82000" />
+      <workItem from="1590492233361" duration="6105000" />
+      <workItem from="1590574811300" duration="5324000" />
+      <workItem from="1590656941051" duration="627000" />
+      <workItem from="1590665172742" duration="2259000" />
+      <workItem from="1593082895495" duration="1168000" />
+      <workItem from="1593338320537" duration="715000" />
+      <workItem from="1593366111987" duration="977000" />
+      <workItem from="1593424416364" duration="616000" />
+      <workItem from="1593682956145" duration="1278000" />
+      <workItem from="1594117887326" duration="1268000" />
+      <workItem from="1594210320795" duration="1371000" />
+      <workItem from="1594563387924" duration="641000" />
+      <workItem from="1594633893527" duration="1625000" />
+      <workItem from="1594713138213" duration="1821000" />
+      <workItem from="1594811585658" duration="609000" />
+      <workItem from="1594822043806" duration="18000" />
+      <workItem from="1594904349132" duration="1254000" />
+      <workItem from="1595001624419" duration="650000" />
+      <workItem from="1595084083897" duration="1770000" />
+      <workItem from="1595148321666" duration="5432000" />
+      <workItem from="1595160740101" duration="81000" />
+      <workItem from="1595170352265" duration="2683000" />
+      <workItem from="1595413308631" duration="1348000" />
+      <workItem from="1595448068277" duration="775000" />
+      <workItem from="1595491977653" duration="3595000" />
+      <workItem from="1595769275319" duration="626000" />
+      <workItem from="1596037069848" duration="42000" />
+      <workItem from="1596107497444" duration="11000" />
+      <workItem from="1596195260277" duration="847000" />
+      <workItem from="1597054199715" duration="563000" />
+      <workItem from="1597141809357" duration="34000" />
+      <workItem from="1597402584709" duration="10000" />
+      <workItem from="1599563932669" duration="2537000" />
+      <workItem from="1599732550749" duration="8599000" />
+      <workItem from="1599741765390" duration="10435000" />
+      <workItem from="1599819887378" duration="17129000" />
+      <workItem from="1600071438824" duration="15563000" />
+      <workItem from="1600158629782" duration="5304000" />
+      <workItem from="1600189602892" duration="1295000" />
+      <workItem from="1600249703973" duration="3217000" />
+      <workItem from="1600345214350" duration="675000" />
+      <workItem from="1600430715665" duration="5457000" />
+      <workItem from="1600632797078" duration="69000" />
+      <workItem from="1600632935612" duration="20000" />
+      <workItem from="1600688968253" duration="5443000" />
+      <workItem from="1600780652078" duration="3722000" />
+      <workItem from="1600847181107" duration="6557000" />
+      <workItem from="1600948230581" duration="3872000" />
+      <workItem from="1601371012245" duration="3925000" />
+      <workItem from="1601375657960" duration="183000" />
+      <workItem from="1601375867735" duration="1379000" />
+      <workItem from="1601377673542" duration="2848000" />
+      <workItem from="1601399750868" duration="614000" />
+      <workItem from="1601456727900" duration="948000" />
+      <workItem from="1601536352856" duration="3814000" />
+      <workItem from="1601552313600" duration="5775000" />
+      <workItem from="1601571517719" duration="610000" />
+      <workItem from="1601627740765" duration="7671000" />
+      <workItem from="1601637372856" duration="699000" />
+      <workItem from="1601813706003" duration="652000" />
+      <workItem from="1601892434196" duration="2573000" />
+      <workItem from="1601974025166" duration="5233000" />
+      <workItem from="1601990014654" duration="185000" />
+      <workItem from="1602600471165" duration="752000" />
+      <workItem from="1602765269867" duration="1459000" />
+      <workItem from="1603200446287" duration="1467000" />
+      <workItem from="1603269509094" duration="6663000" />
+      <workItem from="1603359589671" duration="1729000" />
+      <workItem from="1603815668133" duration="3523000" />
+      <workItem from="1603899950718" duration="18000" />
+      <workItem from="1604255754636" duration="748000" />
+      <workItem from="1604320883682" duration="3904000" />
+      <workItem from="1604326807423" duration="9624000" />
+      <workItem from="1604405982823" duration="1992000" />
+      <workItem from="1604662503414" duration="15434000" />
+      <workItem from="1604830101170" duration="1392000" />
+      <workItem from="1604831652093" duration="1574000" />
+      <workItem from="1605517334158" duration="3273000" />
+      <workItem from="1605806352706" duration="870000" />
+      <workItem from="1606313999810" duration="100000" />
+      <workItem from="1606379517979" duration="2576000" />
+      <workItem from="1607592623458" duration="561000" />
+      <workItem from="1608280089765" duration="453000" />
+      <workItem from="1611320710717" duration="4688000" />
+      <workItem from="1612365541434" duration="787000" />
+      <workItem from="1612520446311" duration="1084000" />
+      <workItem from="1613121007191" duration="2763000" />
+      <workItem from="1613295553716" duration="1014000" />
+      <workItem from="1613401801921" duration="7194000" />
+      <workItem from="1613550995287" duration="4524000" />
+      <workItem from="1613562279010" duration="3837000" />
+      <workItem from="1613589930892" duration="257000" />
+      <workItem from="1613637777492" duration="2439000" />
+      <workItem from="1613827838592" duration="3050000" />
+      <workItem from="1614162056060" duration="1698000" />
+    </task>
+    <task id="LOCAL-00031" summary="fix btn + animateShow function">
+      <created>1572863739175</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1572863739175</updated>
+    </task>
+    <task id="LOCAL-00032" summary="add input style">
+      <created>1574802836782</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1574802836782</updated>
+    </task>
+    <task id="LOCAL-00033" summary="fix shrink">
+      <created>1575358156367</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1575358156367</updated>
+    </task>
+    <task id="LOCAL-00034" summary="fix radio">
+      <created>1577618353073</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1577618353073</updated>
+    </task>
+    <task id="LOCAL-00035" summary="fix package + gulp">
+      <created>1581418066426</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1581418066426</updated>
+    </task>
+    <task id="LOCAL-00036" summary="fix location fonts + scripts">
+      <created>1589374751283</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1589374751283</updated>
+    </task>
+    <task id="LOCAL-00037" summary="add version 3.0.1">
+      <created>1590580140434</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1590580140434</updated>
+    </task>
+    <task id="LOCAL-00038" summary="fix color input">
+      <created>1590582208471</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1590582208471</updated>
+    </task>
+    <task id="LOCAL-00039" summary="fix">
+      <created>1590600229396</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1590600229396</updated>
+    </task>
+    <task id="LOCAL-00040" summary="migrate to node v11.6">
+      <created>1593082968438</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1593082968438</updated>
+    </task>
+    <task id="LOCAL-00041" summary="fix modal animation bug">
+      <created>1593338387706</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1593338387706</updated>
+    </task>
+    <task id="LOCAL-00042" summary="fix fonts">
+      <created>1594117942074</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1594117942074</updated>
+    </task>
+    <task id="LOCAL-00043" summary="fix bower script scroll template">
+      <created>1594210491349</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1594210491349</updated>
+    </task>
+    <task id="LOCAL-00044" summary="fix elements page">
+      <created>1594563426828</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1594563426828</updated>
+    </task>
+    <task id="LOCAL-00045" summary="up version v 1.7.1">
+      <created>1595159731367</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1595159731367</updated>
+    </task>
+    <task id="LOCAL-00046" summary="fix windows config">
+      <created>1595160805760</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1595160805761</updated>
+    </task>
+    <task id="LOCAL-00047" summary="fix styles">
+      <created>1597054382871</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1597054382871</updated>
+    </task>
+    <task id="LOCAL-00048" summary="deploy version">
+      <created>1600165531821</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1600165531821</updated>
+    </task>
+    <task id="LOCAL-00049" summary="fix modals + cookie">
+      <created>1600264889609</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1600264889609</updated>
+    </task>
+    <task id="LOCAL-00050" summary="fix cookier">
+      <created>1600265052229</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1600265052230</updated>
+    </task>
+    <task id="LOCAL-00051" summary="add soc-fl icon">
+      <created>1600434942701</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1600434942702</updated>
+    </task>
+    <task id="LOCAL-00052" summary="replace search icon + fix card size + add seoText">
+      <created>1600692113475</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1600692113475</updated>
+    </task>
+    <task id="LOCAL-00053" summary="add head line + drop menu">
+      <created>1600784121548</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1600784121549</updated>
+    </task>
+    <task id="LOCAL-00054" summary="fix logo + add menu item">
+      <created>1600854173755</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1600854173756</updated>
+    </task>
+    <task id="LOCAL-00055" summary="fix search + title items + catalog list extends">
+      <created>1600878747321</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1600878747321</updated>
+    </task>
+    <task id="LOCAL-00056" summary="fix cost size">
+      <created>1600952266251</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1600952266251</updated>
+    </task>
+    <task id="LOCAL-00057" summary="add sale banner">
+      <created>1600954439315</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1600954439315</updated>
+    </task>
+    <task id="LOCAL-00058" summary="add page review-list">
+      <created>1601376045279</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1601376045280</updated>
+    </task>
+    <task id="LOCAL-00059" summary="add ingr configurator">
+      <created>1601539614824</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1601539614825</updated>
+    </task>
+    <task id="LOCAL-00060" summary="add ingr configurator + fix">
+      <created>1601556876480</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1601556876480</updated>
+    </task>
+    <task id="LOCAL-00061" summary="fix adds calc">
+      <created>1601633064337</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1601633064338</updated>
+    </task>
+    <task id="LOCAL-00062" summary="fix adds calc v2">
+      <created>1601633098338</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1601633098338</updated>
+    </task>
+    <task id="LOCAL-00063" summary="add reset method for item ingr">
+      <created>1603817872326</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1603817872326</updated>
+    </task>
+    <task id="LOCAL-00064" summary="fix css bugs">
+      <created>1603818592872</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1603818592872</updated>
+    </task>
+    <task id="LOCAL-00065" summary="add dist folder">
+      <created>1604324812755</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1604324812757</updated>
+    </task>
+    <task id="LOCAL-00066" summary="fix item card">
+      <created>1604679881968</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1604679881968</updated>
+    </task>
+    <task id="LOCAL-00067" summary="deploy version">
+      <created>1604831550756</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1604831550756</updated>
+    </task>
+    <task id="LOCAL-00068" summary="fix scroll modal">
+      <created>1605523701428</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1605523701428</updated>
+    </task>
+    <task id="LOCAL-00069" summary="fix page About">
+      <created>1606380060498</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1606380060499</updated>
+    </task>
+    <task id="LOCAL-00070" summary="fix iphone touch">
+      <created>1607592824254</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1607592824254</updated>
+    </task>
+    <task id="LOCAL-00071" summary="fix slider + hover cart">
+      <created>1608280427335</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1608280427335</updated>
+    </task>
+    <task id="LOCAL-00072" summary="fix item card + drop item + filter">
+      <created>1611326483117</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1611326483117</updated>
+    </task>
+    <task id="LOCAL-00073" summary="fix bottom space">
+      <created>1612365706425</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1612365706425</updated>
+    </task>
+    <task id="LOCAL-00074" summary="fix item price + btn">
+      <created>1612520744886</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1612520744886</updated>
+    </task>
+    <task id="LOCAL-00075" summary="add const in config adds">
+      <created>1613121448703</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1613121448704</updated>
+    </task>
+    <task id="LOCAL-00076" summary="add const in config adds v2">
+      <created>1613128916181</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1613128916181</updated>
+    </task>
+    <task id="LOCAL-00077" summary="add fly to basket">
+      <created>1613415836710</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1613415836711</updated>
+    </task>
+    <task id="LOCAL-00078" summary="fix type fly animate to basket">
+      <created>1613556491255</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1613556491255</updated>
+    </task>
+    <task id="LOCAL-00079" summary="fix calc adds basket">
+      <created>1613563910957</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1613563910957</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
+    <servers />
+  </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <option name="shellPath" value="C:\Program Files\Git\bin\sh.exe -login -i" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="fix search + title items + catalog list extends" />
+    <MESSAGE value="fix cost size" />
+    <MESSAGE value="add sale banner" />
+    <MESSAGE value="add page review-list" />
+    <MESSAGE value="add ingr configurator" />
+    <MESSAGE value="add ingr configurator + fix" />
+    <MESSAGE value="fix adds calc" />
+    <MESSAGE value="fix adds calc v2" />
+    <MESSAGE value="add reset method for item ingr" />
+    <MESSAGE value="fix css bugs" />
+    <MESSAGE value="add dist folder" />
+    <MESSAGE value="fix item card" />
+    <MESSAGE value="deploy version" />
+    <MESSAGE value="fix scroll modal" />
+    <MESSAGE value="fix page About" />
+    <MESSAGE value="fix iphone touch" />
+    <MESSAGE value="fix slider + hover cart" />
+    <MESSAGE value="fix item card + drop item + filter" />
+    <MESSAGE value="fix bottom space" />
+    <MESSAGE value="fix item price + btn" />
+    <MESSAGE value="add const in config adds" />
+    <MESSAGE value="add const in config adds v2" />
+    <MESSAGE value="add fly to basket" />
+    <MESSAGE value="fix type fly animate to basket" />
+    <MESSAGE value="fix calc adds basket" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix calc adds basket" />
+  </component>
+</project>

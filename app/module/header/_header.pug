@@ -1,0 +1,134 @@
+mixin header()
+	//block header
+	.header
+		//header-top
+		.header-add-wrap
+			.main-cont
+				.header-add
+					a(href="#").header-add__el Доставка и оплата
+					a(href="#").header-add__el О нас
+					a(href="#").header-add__el Вакансии
+					a(href="#").header-add__el Франшиза
+					a(href="#").header-add__el Магазины
+		.header-top-wrap
+			.main-cont
+				.header-top
+					.head-toggle
+						+icon("menu","icon icon-open")
+						+icon("close","icon icon-close")
+					a(href="/").logo
+						img(src="img/logo.svg", alt="")
+					.header-location
+						.header-info
+							.header-info__icon
+								+icon("location--color","icon")
+							.header-info__val Озов
+							.bubble-loc.hidden
+								// NOTE!!! REMOVE Class .hidden
+								.bubble-loc__title Ваш город  <span class="type--mark type--bold">Нур-султан ?</span>
+								.bubble-loc__footer
+									.bubble-loc__footer--true Да
+									.bubble-loc__footer--false Нет, выбрать другой
+						.header-info__text Доставка за 45-90 минут
+					.header-contact
+						.header-info
+							.header-info__icon
+								+icon("phone","icon")
+							.header-info__val
+								a(href="tel:+7 (917) 58-55-05")  <span>+7 (917)</span>&nbsp;58-55-05
+							.soc-row.soc-row--sm
+								a(href="#").soc-row__el
+									+icon("soc-instagram","icon")
+								a(href="#").soc-row__el
+									+icon("soc-vk","icon")
+								a(href="#").soc-row__el
+									+icon("soc-fl","icon")
+						.header-info__text Сегодня 10 - 24
+					.header-menu-search
+						.header-menu-search__cont
+							input(type="text" placeholder="Что ищем").input
+							+icon("search","icon js-toggle-search")
+					.header-auth
+						+icon("user","icon")
+						.header-auth-state Александр
+					.cart-wrap.cart-wrap--mobile
+						.cart
+							+icon("cart--color","icon")
+							.cart-val 33
+		.slide-menu
+			.slide-row
+				.slide-header-auth
+					+icon("user","icon")
+					.slide-header-auth-state Александр
+
+			.slide-row
+				.slide-menu__list
+					a(href="#").slide-menu__list-el Акции
+					a(href="#").slide-menu__list-el Доставка и оплата
+					a(href="#").slide-menu__list-el Вакансии
+					a(href="#").slide-menu__list-el О нас
+			.slide-row
+				.header-location
+					.header-info
+						.header-info__icon
+							+icon("location--color","icon")
+						.header-info__val Озов
+					.header-info__text Доставка за 45-90 минут
+			.slide-row
+				.slide-header-contact
+					.slide-header-info
+						.slide-header-info__icon
+							+icon("phone","icon")
+						.slide-header-info__val
+							a(href="tel:+7 (7172) 767 767")  +7 (7172) 767 767
+							a(href="tel:+7 (707) 988 78 87")  +7 (707) 988 78 87
+					.slide-header-info__text Сегодня 10 - 24
+			.slide-row
+				.soc-row
+					a(href="#").soc-row__el
+						+icon("soc-instagram","icon")
+					a(href="#").soc-row__el
+						+icon("soc-vk","icon")
+		.header-menu-wrap
+			.main-cont
+				.header-menu
+					a(href="/").logo
+						img(src="img/logo.svg", alt="")
+
+					.header-nav
+						-
+							var items = [
+								'Пицца','Роллы','Суши','Сеты','WOK','Десерты','Напитки','Соусы'
+								];
+						each item in items
+							a(href="#").header-nav__el #{item}
+						// Это список категорий, который хранится под еще
+						// Появлятся в моб версии меню
+						.header-nav__el.header-nav__el--more Десерты
+						.header-nav__el.header-nav__el--more Напитки
+						.header-nav__el.header-nav__el--more Дополнительно
+						.header-nav__el.header-nav__el--more Замороженная продукция
+						// Это список категорий, который хранится под еще === end
+						a(href="#").header-nav__el.header-nav__el--mark Акции
+						.header-nav__more
+							span Eще
+							.header-nav-sub
+								a(href="#").header-nav-sub__el Десерты
+								a(href="#").header-nav-sub__el Напитки
+								a(href="#").header-nav-sub__el Дополнительно
+								a(href="#").header-nav-sub__el Замороженная продукция
+
+					//.header-menu-search.js-toggle-search
+						+icon("search","icon js-toggle-search")
+					.cart-wrap.cart-wrap--desktop
+						.cart-cost 2 850 ₽
+						.cart
+							+icon("cart--color","icon")
+							.cart-val 33
+		.search-wrap
+			.main-cont
+				.search-cont
+					.search
+						input(type="text" placeholder="Что ищем ?" class="input")
+						input(type="submit" value="Искать" class="btn--md btn--mark")
+	//block header end

@@ -1,0 +1,160 @@
+include block_html/_style.pug
+include block_html/_include.pug
+
+.page
+	+header()
+	.content
+		.main-cont
+			//pizza
+			.item-wrap.js-animateFlyItem
+				.item-col
+					.item-img(style="background-image:url('img/item-card-1.jpg')")
+				// item-info
+				.item-info.js-switch-wrap
+					.title-row
+						.arrow(onclick="window.history.go(-1); return false;")
+							+icon("arrow-conner-left","icon")
+						.title.title--xl Четыре сыра
+
+					.item-descr Сыр, пицца-соус, ананас, сыр, перец болгарский, куриное филе, пицца-соус, ананас
+					.product-condition.product-condition--md
+						.icon-row
+							+icon("info","icon icon--md icon--right icon--gray")
+							span 30 см; 2л
+					// size
+					// size
+					.item-size
+						.size.size--mark.size--fluid.size--sm
+							.size__el.size__el--active.js-size__el.js-switch(data-item="cond-1" data-group="type")  15 см
+							.size__el.js-size__el.js-switch(data-item="cond-2" data-group="type")  30 см
+							.size__el.js-size__el.js-switch(data-item="cond-3" data-group="type")  45 см
+					// size === end
+
+					//.item-size
+						.size.size--mark.size--sm
+							.size__el.size__el--active Традиционное
+							.size__el Тонкое
+					// size === end
+
+					//cond-1
+					.js-switch-cont(data-item="cond-1" data-group="type")
+						.item-config-row.js-ingr-wrap(data-min="1" data-max="3")
+							.item-config-row-head.js-toggle.js-item-config-row-head.active
+								.title Дополнительные ингредиенты
+								+icon("plus","icon")
+							.item-config-row-content.js-item-config-row-content
+								- for (var i=0;i<4;i++)
+									.ingr-row
+										.ingr-name Корнишоны <span class="type--gray">/ 75г</span>
+										.ingr-cost 16 р
+										.ingr-incr
+											+incr(false,"incr--single incr--mark-light incr--sm")
+										.ingr-total 32 р
+							.msg.msg--info.hidden
+								// .msg--info || .msg--alert
+								.msg-text Вы можете добавить до 6-ти доп. ингрединтов
+						.item-config-row.js-ingr-wrap(data-min="0" data-max="4")
+							.item-config-row-head.js-toggle.js-item-config-row-head
+								.title Дополнительные ингредиенты
+								+icon("plus","icon")
+							.item-config-row-content.js-item-config-row-content.hide
+								- for (var i=0;i<6;i++)
+									.ingr-row
+										.ingr-name Сыр <span class="type--gray">/ 75г</span>
+										.ingr-cost 16 р
+										.ingr-incr
+											+incr(false,"incr--single incr--mark-light incr--sm")
+										.ingr-total 32 р
+							.msg.msg--info.hidden
+								// .msg--info || .msg--alert
+								.msg-text Вы можете добавить до 6-ти доп. ингрединтов
+						//.item-config-row.js-ingr-wrap(data-min="1" data-max="1")
+							.item-config-row-head.js-toggle.js-item-config-row-head
+								.title Дополнительные ингредиенты
+								+icon("plus","icon")
+							.item-config-row-content.js-item-config-row-content.hide
+								- for (var i=0;i<6;i++)
+									.ingr-row
+										.ingr-name Сыр <span class="type--gray">/ 75г</span>
+										.ingr-cost 16 р
+										.ingr-incr
+											+incr(1,"incr--single incr--mark-light incr--sm")
+										.ingr-total 32 р
+							.msg.msg--info.hidden
+								// .msg--info || .msg--alert
+								.msg-text Вы можете добавить до 6-ти доп. ингрединтов
+						.item-condition-wrap
+							// item total
+							//.item-total.item-total--disable
+							.item-total
+								.item-back(onclick="window.history.go(-1); return false;")
+									+icon("arrow-conner-left","icon")
+								.item-get.btn--md.btn--mobile.btn--mark.js-animateFlyInit Добавить в корзину за 19238 р
+							// item total === end
+					//cond-1 === end
+
+					//cond-2
+					.js-switch-cont.hidden(data-item="cond-2" data-group="type")
+						.item-config-row.js-ingr-wrap(data-min="1" data-max="3")
+							.item-config-row-head.js-toggle.js-item-config-row-head.active
+								.title Дополнительные ингредиенты
+								+icon("plus","icon")
+							.item-config-row-content.js-item-config-row-content
+								- for (var i=0;i<4;i++)
+									.ingr-row
+										.ingr-name Колбаса <span class="type--gray">/ 75г</span>
+										.ingr-cost 16 р
+										.ingr-incr
+											+incr(false,"incr--single incr--mark-light incr--sm")
+										.ingr-total 32 р
+							.msg.msg--info.hidden
+								// .msg--info || .msg--alert
+								.msg-text Вы можете добавить до 6-ти доп. ингрединтов
+						.item-condition-wrap
+							// item total
+							.item-total.item-total--disable
+								.item-total-wrap
+									.item-total__info старая цена 299 р
+									.item-total__cond
+										.item-total__cost 250 р
+										.item-total__weight 350 г
+								.item-get
+									.incr-btn.incr-btn--fix
+										.incr-btn__el.btn--md.btn--mark.js-animateFlyInit Заказать
+										.incr-btn-wrap
+											+incr(1,"incr--mark")
+								a(href="#").icon-row
+									.arrow.arrow--sm.icon--right
+										+icon("arrow-conner-left","icon ")
+									span.type--xs назад в раздел
+							// item total === end
+					//cond-2 === end
+
+					// structure
+					.structure-wrap
+						.structure
+							.structure__el
+								.structure__el-name калории
+								.structure__el-val 2841
+							.structure__el
+								.structure__el-name белки
+								.structure__el-val 75,4
+							.structure__el
+								.structure__el-name жиры
+								.structure__el-val 111,5
+							.structure__el
+								.structure__el-name углеводы
+								.structure__el-val 198,2
+						.structure-text энергетическая ценность указана за 100 г
+					// structure === end
+
+				// item-info === end
+			// recommend
+			.title.title--lg Рекомендуем также
+			.product-cont
+				- for (var i=0;i< 4;i++)
+					+product()
+			// recommend === end
+
+	+footer()
+include ./block_html/_script.pug

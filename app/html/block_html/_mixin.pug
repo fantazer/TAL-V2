@@ -1,0 +1,127 @@
+mixin icon(name,cls)
+  svg(class=cls)
+    use(xlink:href="#" + name)
+
+mixin checkbox(text,disable)
+  .check-el
+    if disable
+      label.style-label.style-label--checkbox.style-label--disable
+        input(type="checkbox").style-input
+        .style-input-element
+          +icon("checked","icon")
+        .style-input-text=text
+    else
+      label.style-label.style-label--checkbox
+        input(type="checkbox").style-input
+        .style-input-element
+          +icon("checked","icon")
+        .style-input-text=text
+mixin radio(text,group,checked)
+  .check-el
+    label.style-label.style-label--radio
+      input(type="radio" name=group checked=checked).style-input
+      .style-input-element
+        .icon-radio
+      .style-input-text=text
+
+mixin incr(state,className='')
+  .incr(class= state ? className  +' incr--one' : className )
+    .incr__minus.incr__nav
+      +icon("minus","icon")
+    .incr__val
+      span=state ? 1 : 0
+      .incr__val-coner
+    .incr__plus.incr__nav
+      +icon("plus","icon")
+
+mixin product(img="item-2.jpg",type)
+  .product-el(data-condition=type).js-animateFlyItem
+    a(href="#").product__img
+      .product__img-el(style="background-image:url('img/"+img+"')")
+      .product-el-tag-wrap
+        .product-el-tag-el(style="background:#FF0000") спец цена
+      .product-el--add
+        +icon("cart-empty","icon")
+    .product__cont.js-switch-wrap
+      a(href="#").product__title Пицца Чоризо
+      .product-condition 280-350 гр
+      a(href="#").product__descr Классические роллы с начикой на ваш выбор, с нежной сливочной шапочкой из сыра филадельфия
+      .size
+        .size__el.size__el--active.js-switch(data-item="cond-1" data-group="type") 200 г
+        .size__el.js-switch(data-item="cond-2" data-group="type") 400 г
+        .size__el.js-switch(data-item="cond-3" data-group="type") 800 г
+      //remove hidden
+      .js-switch-cont(data-item="cond-1" data-group="type")
+        .dropdown
+          input(type="hidden" name="name" value="0")
+          .dropdown-current
+            .dropdown-current__val сливочный соус
+            +icon("arrow-down-fat","icon")
+          .dropdown-menu
+            .dropdown-menu__el(data-value="#") Горчица
+            .dropdown-menu__el(data-value="#") Кетчуп
+        //remove hidden
+        .check-el
+          label.style-label.style-label--checkbox
+            input(type="checkbox").style-input
+            .style-input-element
+              +icon("checked","icon")
+            .style-input-text с кокосовой стружкой
+        .check-el.hidden
+          label.style-label.style-label--checkbox
+            input(type="checkbox").style-input
+            .style-input-element
+              +icon("checked","icon")
+            .style-input-text с кокосовой стружкой
+        .product-footer
+          .product-footer__info
+            .product-price.product-price--false 110 р
+            .product-price 1000 р
+          .product-get.incr-btn
+            .incr-btn__el.btn--sm.btn--mark.js-animateFlyInit Заказать
+            .incr-btn-wrap
+              +incr(1,"incr--mark-light")
+      .js-switch-cont.hidden(data-item="cond-2" data-group="type")
+        .dropdown
+          input(type="hidden" name="name" value="0")
+          .dropdown-current
+            .dropdown-current__val Очень сливочный соус
+            +icon("arrow-down-fat","icon")
+          .dropdown-menu
+            .dropdown-menu__el(data-value="#") Очень Горчица
+            .dropdown-menu__el(data-value="#") Очень Кетчуп
+        //remove hidden
+        .check-el
+          label.style-label.style-label--checkbox
+            input(type="checkbox").style-input
+            .style-input-element
+              +icon("checked","icon")
+            .style-input-text Очень с кокосовой
+        .check-el.hidden
+          label.style-label.style-label--checkbox
+            input(type="checkbox").style-input
+            .style-input-element
+              +icon("checked","icon")
+            .style-input-text с кокосовой стружкой
+        .product-footer
+          .product-footer__info
+            .product-price.product-price--false 510 р
+            .product-price 380 р
+          .product-get.incr-btn
+            .incr-btn__el.btn--sm.btn--mark.js-animateFlyInit Заказать
+            .incr-btn-wrap
+              +incr(1,"incr--mark-light")
+
+
+mixin product-sm(img="item-2.jpg",size)
+  .product-el.product-el--sm.product-el--border
+    .product-el--add
+      +icon("cart-empty","icon")
+    a(href="#" class = size? "product__img--lg":'').product__img
+      .product__img-el(style="background-image:url('img/"+img+"')")
+    .product__cont
+      a(href="#").product__title Имбирь
+      .product-footer
+        .product-price 250 р
+        .item-add
+          +incr(false,"incr--single incr--mdx incr--mark-empty ")
