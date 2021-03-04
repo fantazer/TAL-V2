@@ -10,13 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix calc adds basket">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/screen/app/index.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/screen/app/index.png" afterDir="false" />
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix fly">
       <change beforePath="$PROJECT_DIR$/app/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/screen/app/index.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/screen/app/index.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/script-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/script-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,14 +236,7 @@
       <workItem from="1613637777492" duration="2439000" />
       <workItem from="1613827838592" duration="3050000" />
       <workItem from="1614162056060" duration="2315000" />
-      <workItem from="1614852300258" duration="1404000" />
-    </task>
-    <task id="LOCAL-00031" summary="fix btn + animateShow function">
-      <created>1572863739175</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1572863739175</updated>
+      <workItem from="1614852300258" duration="2822000" />
     </task>
     <task id="LOCAL-00032" summary="add input style">
       <created>1574802836782</created>
@@ -586,7 +574,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613563910957</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="fix fly">
+      <created>1614854093702</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1614854093702</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -627,7 +622,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="fix search + title items + catalog list extends" />
     <MESSAGE value="fix cost size" />
     <MESSAGE value="add sale banner" />
     <MESSAGE value="add page review-list" />
@@ -652,6 +646,7 @@
     <MESSAGE value="add fly to basket" />
     <MESSAGE value="fix type fly animate to basket" />
     <MESSAGE value="fix calc adds basket" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix calc adds basket" />
+    <MESSAGE value="fix fly" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix fly" />
   </component>
 </project>
