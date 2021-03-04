@@ -567,51 +567,53 @@ $(document).ready(function () {
 	//animate basket
 	var flyBasket = function () {
 		$(".js-animateFlyInit").click(function (e) { //click on btn
-			if ($(window).width() > 1281) {
-				var flyTarget = $('.cart-wrap--desktop .cart ')
-			} else {
-				var flyTarget = $('.cart-wrap--mobile .cart ')
-			}
-			var flyEl = $(e.target).closest(".js-animateFlyItem");
-			flyTarget.removeClass('shake');
-			var locationBasket = flyTarget.offset();//find basket
-			var flyTargetPosY = locationBasket.top + 'px';
-			var flyTargetPosX = locationBasket.left - flyTarget.width() / 2 + 'px';
-
-			var flyElPosY = flyEl.offset().top;
-			var flyElPosX = flyEl.offset().left;
-			var flyElWidth = flyEl.width();
-			var flyElHeight = flyEl.height();
-
-			var animateEl = flyEl
-				.clone()
-				.appendTo("body")
-				.addClass("flyEl-clone")
-				.css({
-					'z-index': '1001',
-					'left': flyElPosX,
-					'top': flyElPosY,
-					'width': flyElWidth,
-					'height': flyElHeight,
-				})
-				.addClass('flyEl-scale')
 			setTimeout(function () {
-				animateEl.animate({
-					top: flyTargetPosY,
-					left: flyTargetPosX,
-					width: 80,
-					height: 80,
-					opacity: .8,
-				}, 400, "linear", function () {
-					setTimeout(function () {
-						animateEl.remove();
-					}, 100)
-				});
-			}, 400)
-			setTimeout(function () {
-				flyTarget.addClass('shake');
-			}, 1000)
-		});
+				if ($(window).width() > 1281) {
+					var flyTarget = $('.cart-wrap--desktop .cart ')
+				} else {
+					var flyTarget = $('.cart-wrap--mobile .cart ')
+				}
+				var flyEl = $(e.target).closest(".js-animateFlyItem");
+				flyTarget.removeClass('shake');
+				var locationBasket = flyTarget.offset();//find basket
+				var flyTargetPosY = locationBasket.top + 'px';
+				var flyTargetPosX = locationBasket.left - flyTarget.width() / 2 + 'px';
+
+				var flyElPosY = flyEl.offset().top;
+				var flyElPosX = flyEl.offset().left;
+				var flyElWidth = flyEl.width();
+				var flyElHeight = flyEl.height();
+
+				var animateEl = flyEl
+					.clone()
+					.appendTo("body")
+					.addClass("flyEl-clone")
+					.css({
+						'z-index': '1001',
+						'left': flyElPosX,
+						'top': flyElPosY,
+						'width': flyElWidth,
+						'height': flyElHeight,
+					})
+					.addClass('flyEl-scale')
+				setTimeout(function () {
+					animateEl.animate({
+						top: flyTargetPosY,
+						left: flyTargetPosX,
+						width: 80,
+						height: 80,
+						opacity: .8,
+					}, 400, "linear", function () {
+						setTimeout(function () {
+							animateEl.remove();
+						}, 100)
+					});
+				}, 400)
+				setTimeout(function () {
+					flyTarget.addClass('shake');
+				}, 1000)
+			});
+		},0)
 	};
 	flyBasket();
 	//animate basket === end
