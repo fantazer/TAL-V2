@@ -10,12 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix fly_v2">
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="add modal cityV2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/html/modal.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/modal.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/modal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/module/modal/_modal.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/module/modal/_modal.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -244,14 +242,7 @@
       <workItem from="1614852300258" duration="3756000" />
       <workItem from="1614871522123" duration="1090000" />
       <workItem from="1614937856210" duration="622000" />
-      <workItem from="1615383902095" duration="3938000" />
-    </task>
-    <task id="LOCAL-00033" summary="fix shrink">
-      <created>1575358156367</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1575358156367</updated>
+      <workItem from="1615383902095" duration="5030000" />
     </task>
     <task id="LOCAL-00034" summary="fix radio">
       <created>1577618353073</created>
@@ -589,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614861016697</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="add modal cityV2">
+      <created>1615388721719</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1615388721719</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -630,7 +628,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="add sale banner" />
     <MESSAGE value="add page review-list" />
     <MESSAGE value="add ingr configurator" />
     <MESSAGE value="add ingr configurator + fix" />
@@ -655,6 +652,7 @@
     <MESSAGE value="fix calc adds basket" />
     <MESSAGE value="fix fly" />
     <MESSAGE value="fix fly_v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix fly_v2" />
+    <MESSAGE value="add modal cityV2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add modal cityV2" />
   </component>
 </project>
