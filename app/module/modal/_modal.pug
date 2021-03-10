@@ -505,3 +505,23 @@ mixin modal()
 							img(src="img/deliver-club.png", alt="")
 			// bad address === end
 
+
+			// city
+			.modal.modal--xl(data-modal="citySelect")
+				.modal-content
+					.modal-close
+						+icon("close","icon")
+					.modal-head
+						.modal-title.modal-title--left 125 заведений в 50 городах
+					.city
+						.city-search
+							input(type="text" placeholder="Введите название  города" class="input input--empty")
+							.search__icon
+								+icon("search","icon")
+					.city-row-wrap.scroll
+						- for (var i=0;i<8;i++)
+							.city-row
+								span.city-row__name Москва:
+								|	Воронеж, Владимир, Волгоград, Владивосток, Вологда, Волгодонск, Воронеж, Владимир, Волгоград, Владивосток, Вологда, Волгодонск.
+			// city === end
+

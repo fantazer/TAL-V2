@@ -10,8 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix fly">
-      <change beforePath="$PROJECT_DIR$/app/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/script.js" afterDir="false" />
+    <list default="true" id="33fc4985-0812-4917-a972-022b8742b981" name="Default" comment="fix fly_v2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/style.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/style.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/html/modal.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/html/modal.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/modal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/module/modal/_modal.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/module/modal/_modal.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,14 +241,10 @@
       <workItem from="1613637777492" duration="2439000" />
       <workItem from="1613827838592" duration="3050000" />
       <workItem from="1614162056060" duration="2315000" />
-      <workItem from="1614852300258" duration="2822000" />
-    </task>
-    <task id="LOCAL-00032" summary="add input style">
-      <created>1574802836782</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1574802836782</updated>
+      <workItem from="1614852300258" duration="3756000" />
+      <workItem from="1614871522123" duration="1090000" />
+      <workItem from="1614937856210" duration="622000" />
+      <workItem from="1615383902095" duration="3938000" />
     </task>
     <task id="LOCAL-00033" summary="fix shrink">
       <created>1575358156367</created>
@@ -581,7 +582,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614854093702</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="fix fly_v2">
+      <created>1614861016697</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1614861016697</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -622,7 +630,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="fix cost size" />
     <MESSAGE value="add sale banner" />
     <MESSAGE value="add page review-list" />
     <MESSAGE value="add ingr configurator" />
@@ -647,6 +654,7 @@
     <MESSAGE value="fix type fly animate to basket" />
     <MESSAGE value="fix calc adds basket" />
     <MESSAGE value="fix fly" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix fly" />
+    <MESSAGE value="fix fly_v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix fly_v2" />
   </component>
 </project>
